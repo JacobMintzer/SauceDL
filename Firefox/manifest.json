@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "SauceDL",
+  "version": "0.1",
+  "description": "Downloads the source and saves it within the file.",
+  "icons": {
+    "48": "icons/PixelTomato.svg",
+    "96": "icons/PixelTomato.svg"
+  },
+  "background": {
+	"scripts": [
+		"sauceDL.js"
+	]
+  },
+  "permissions": [
+	"activeTab",
+	"contextMenus",
+	"clipboardWrite"
+  ]
+}
